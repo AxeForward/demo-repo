@@ -17,16 +17,8 @@ def calc_coef(arr_x, arr_y):
         arr_coef = np.matmul(temp, arr_y)
         return arr_coef
 
-'''
-data_path = 'calc_data.xlsx'
-df = pd.read_excel(data_path, index_col=0, parse_dates=['Date'])
-df['const'] = 1
-y = df.IdxMonRet.values
-X = df[['Rmrf_mc', 'Smb_mc', 'Hml_mc', 'const']].values
 
-beta = calc_coef(X, y)
-print("alpha = ", beta[3])
-'''
+
 
 
 
